@@ -6,13 +6,13 @@ body, h1, h2, h3, p {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #aac87a;
-  color: #20412b;
+  background-color: #6899ab;
+  color: #1c5266;
 }
 
 
 .navbar {
-  background-color: #20412b;
+  background-color: #1c5266;
   padding: 15px;
   text-align: center;
 }
@@ -28,7 +28,7 @@ section {
   padding: 20px;
   max-width: 800px;
   margin: 20px auto;
-  background-color: #c9efbc;
+  background-color: #ccf1ff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -40,7 +40,7 @@ img {
 }
 
 h1, h2 {
-  color: #4F9D69;
+  color: #44869e;
 }
 
 p {
