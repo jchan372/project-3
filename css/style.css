@@ -1,1 +1,48 @@
 
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #8bbff7;
+  color: #07407d;
+}
+
+.navbar {
+  background-color: #07407d;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  font-family: 'Times New Roman', serif;
+  color: rgb(212, 214, 173);
+  padding: 14px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #c9efbc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Optional: for rounded corners */
+}
+
+h1, h2 {
+  color: #4f759d;
+}
+
+p {
+  margin-bottom: 20px;
+}
