@@ -1,4 +1,79 @@
+html {
+  background-color: #7EA16B;
+}
 
+header {
+  text-align: center;
+  color: #395e64;
+  padding: 5%;
+  background-color: #1C3144;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #7cabb3;
+}
+
+a:hover {
+  color: #850b1f;
+}
+
+body {
+  font-family: Georgia;
+  margin-bottom: 2%;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+section {
+  padding: 2%;
+  max-width: 800px;
+  margin: 2% auto;
+  background-color: #C3D898;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.subheading {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MondayFeelings";
+  src: url(css/fonts/mondayfeelings.ttf) format(truetype);
+}
+
+.recipe {
+  font-family: "MondayFeelings";
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1C3144;
+  width: 25%;
+  padding: 1%;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
