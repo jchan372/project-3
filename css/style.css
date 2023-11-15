@@ -17,7 +17,7 @@ ul {
 
 .navbar {
   background-color: #1c5266;
-  padding: 10%;
+  padding: 3%;
   text-align: center;
 }
 
@@ -25,16 +25,16 @@ ul {
   float: center;
   font-family: 'Times New Roman', serif;
   color: rgb(224, 227, 159);
-  padding: 10%, 15%;
+  padding: 3%, 5%;
   text-align: center;
   text-decoration: none;
 }
 
 section {
   float: center;
-  padding: 15%;
+  padding: 5%;
   max-width: 100%;
-  margin: 15% auto;
+  margin: 10% auto;
   background-color: #ccf1ff;
   border-radius: 5%;
   box-shadow: 0 0 5% rgba(0,0,0,0.1);
@@ -52,5 +52,5 @@ h1, h2 {
 }
 
 p {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
