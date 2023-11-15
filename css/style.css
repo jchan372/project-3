@@ -4,6 +4,7 @@ body, h1, h2, h3, p {
 }
 
 body {
+  float: center;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #6899ab;
@@ -27,6 +28,7 @@ body {
 }
 
 section {
+  float: center;
   padding: 125%;
   max-width: 5000%;
   margin: 125% auto;
@@ -36,6 +38,7 @@ section {
 }
 
 img {
+  float: center;
   max-width: 100%;
   height: auto;
   border-radius: 31.25%; /* Optional: for rounded corners */
