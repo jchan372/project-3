@@ -18,6 +18,7 @@ body {
 }
 
 .navbar a {
+  float: center;
   font-family: 'Times New Roman', serif;
   color: rgb(224, 227, 159);
   padding: 14px 20px;
