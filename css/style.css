@@ -11,6 +11,9 @@ body {
   color: #1c5266;
 }
 
+ul {
+  list-style-type: none;
+}
 
 .navbar {
   background-color: #1c5266;
