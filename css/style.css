@@ -17,7 +17,7 @@ ul {
 
 .navbar {
   background-color: #1c5266;
-  padding: 15px;
+  padding: 10%;
   text-align: center;
 }
 
@@ -25,26 +25,26 @@ ul {
   float: center;
   font-family: 'Times New Roman', serif;
   color: rgb(224, 227, 159);
-  padding: 14%, 20px;
+  padding: 10%, 15%;
   text-align: center;
   text-decoration: none;
 }
 
 section {
   float: center;
-  padding: 20px;
-  max-width: 800%;
-  margin: 20px auto;
+  padding: 15%;
+  max-width: 100%;
+  margin: 15% auto;
   background-color: #ccf1ff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5%;
+  box-shadow: 0 0 5% rgba(0,0,0,0.1);
 }
 
 img {
   float: center;
   max-width: 100%;
   height: auto;
-  border-radius: 5px; /* Optional: for rounded corners */
+  border-radius: 5%; /* Optional: for rounded corners */
 }
 
 h1, h2 {
@@ -52,5 +52,5 @@ h1, h2 {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 15%;
 }
