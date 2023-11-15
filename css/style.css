@@ -34,9 +34,9 @@ section {
   float: center;
   padding: 3%;
   max-width: 50%;
-  margin: 10% auto;
+  margin: 3% auto;
   background-color: #ccf1ff;
-  border-radius: 5%;
+  border-radius: 3%;
   box-shadow: 0 0 5% rgba(0,0,0,0.1);
 }
 
@@ -52,5 +52,5 @@ h1, h2 {
 }
 
 p {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
