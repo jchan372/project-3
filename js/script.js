@@ -12,8 +12,8 @@ function initMap() {
     map: map
   });
 
-  var reckless = new google.maps.Marker({
-    position: { lat: 41.882324790101684, lng: -87.62668825420475 },
+  var buckinghamFountain = new google.maps.Marker({
+    position: { lat: 41.87591665187033, lng: -87.61893134443656 },
     map: map
   });
 
