@@ -2,9 +2,8 @@ var map;
 function initMap() {
 
   map = new google.maps.Map(document.getElementById('map'), {
-    //center: {lat: 41.8741, lng: -87.6285}, 
-    center: {lat: 41.8784, lng: -87.6283},
-    zoom: 15
+    center: {lat: 41.8741, lng: -87.6285},
+    zoom: 17
   });
 
   var school = new google.maps.Marker({
@@ -12,16 +11,17 @@ function initMap() {
     map: map
   });
 
-  var reckless = new google.maps.Marker({
-    position: { lat: 41.882324790101684, lng: -87.62668825420475 },
+  var coffee = new google.maps.Marker({
+    position: { lat: 41.87470985506898, lng: -87.62902108075652 },
     map: map
   });
 
   var distPoints = [
     { lat: 41.8730, lng: -87.6279 },
-    { lat: 41.882051955922336, lng: -87.62782201616926 },
-    { lat: 41.88206477020562, lng: -87.62670524486201 },
-    { lat: 41.882324790101684, lng: -87.62668825420475 },
+    { lat: 41.87299780452928, lng: -87.62762881329594 },
+    { lat: 41.874529665029925, lng: -87.62765288743249 },
+    { lat: 41.87455580971936, lng: -87.6290349675567 },
+    { lat: 41.87470985506898, lng: -87.62902108075652 },
   ];
 
   var dist = new google.maps.Polyline({
@@ -32,6 +32,11 @@ function initMap() {
     strokeWeight: 2,
   });
 
+  dist.setMap(map);
+
+}
+
+window.initMap = initMap;
   dist.setMap(map);
 
 }
