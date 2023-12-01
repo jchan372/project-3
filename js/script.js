@@ -7,8 +7,8 @@ function initMap() {
     zoom: 15
   });
 
-  var school = new google.maps.Marker({
-    position: { lat: 41.8730, lng: -87.6279},
+  var jones = new google.maps.Marker({
+    position: { lat: 41.873, lng: -87.628},
     map: map
   });
 
