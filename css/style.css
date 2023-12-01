@@ -4,7 +4,6 @@ body, h1, h2, h3, p {
 }
 
 body {
-  float: center;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #6899ab;
@@ -22,26 +21,23 @@ ul {
 }
 
 .navbar a {
-  float: center;
   font-family: 'Times New Roman', serif;
   color: rgb(224, 227, 159);
-  padding: 1%, 2%;
+  padding: 5px, 10px;
   text-align: center;
   text-decoration: none;
 }
 
 section {
-  float: center;
   padding: 3%;
   max-width: 50%;
   margin: 3% auto;
   background-color: #ccf1ff;
   border-radius: 3%;
-  box-shadow: 0 0 5% rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 img {
-  float: center;
   max-width: 100%;
   height: auto;
   border-radius: 5%; /* Optional: for rounded corners */
