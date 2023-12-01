@@ -47,13 +47,18 @@ img {
   border-radius: 5%; /* Optional: for rounded corners */
 }
 
-#map {
-  height: 60%;
-  width: 60%;
-  position: absolute;
-  padding: 5%;
-  margin: 0;
+
+#map{
+  width: 90%;
+  height: 500px;
+  border-radius: 25px;
+  border-color: #FE5F55;
+  border-width: thick;
+  border-style: dotted;
+  margin: 0 auto;
 }
+
+
 h1, h2 {
   color: #44869e;
 }
