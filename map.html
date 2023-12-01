@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>About Me</title>
+    <script 
+      async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMI3OA497QhDKAAZ5GKiTKneL20xtCllk&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="js/script.js">
@@ -16,7 +19,12 @@
     </div>
 
      <div id = "map"></div>
-
+  <body>
+    <gmp-map center="41.872989654541016,-87.62782287597656" zoom="14" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="41.872989654541016,-87.62782287597656" title="My location">
+      </gmp-advanced-marker>
+    </gmp-map>
+  </body>
     <script
         <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMI3OA497QhDKAAZ5GKiTKneL20xtCllk&callback=console.debug&libraries=maps,marker&v=beta">
     </script>
