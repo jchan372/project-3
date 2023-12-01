@@ -1,42 +1,39 @@
-var map;
 function initMap() {
-
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.8741, lng: -87.6285},
-    zoom: 17
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: { lat: 41.95535438394767, lng: -87.72210225143667 },
+    zoom: 12,
   });
 
-  var school = new google.maps.Marker({
-    position: { lat: 41.8730, lng: -87.6279},
-    map: map
+  var marker = new google.maps.Marker({
+    position: { lat: 41.95535438394767, lng: -87.72210225143667 },
+    map: map,
   });
 
-  var coffee = new google.maps.Marker({
-    position: { lat: 41.87470985506898, lng: -87.62902108075652 },
-    map: map
+  var infowindow = new google.maps.InfoWindow({
+    content: "This is where I work!",
   });
+  infowindow.open(map, marker);
 
-  var distPoints = [
-    { lat: 41.8730, lng: -87.6279 },
-    { lat: 41.87299780452928, lng: -87.62762881329594 },
-    { lat: 41.874529665029925, lng: -87.62765288743249 },
-    { lat: 41.87455580971936, lng: -87.6290349675567 },
-    { lat: 41.87470985506898, lng: -87.62902108075652 },
+  const icons = {
+    gardencenter: {
+      icon: "media/garden_center_picture.jpg",
+    },
+  };
+
+  var features = [
+    { position: { lat: 41.95, lng: -87.72 }, type: "gardencenter" },
   ];
 
-  var dist = new google.maps.Polyline({
-    path: distPoints,
-    geodesic: true,
-    strokeColor: "#FE5F55",
-    strokeOpacity: 1.0,
-    strokeWeight: 2,
-  });
-
-  dist.setMap(map);
-
+  for (let i = 0; i < features.length; i++) {
+    const marker = new google.maps.Marker({
+      position: features[i].position,
+      icon: icons[features[i].type].icon,
+      map: map,
+    });
+  }
 }
 
-window.initMap = initMap;
+google.maps.event.addDomListener(window, 'load', initMap);
   dist.setMap(map);
 
 }
