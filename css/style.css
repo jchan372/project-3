@@ -47,7 +47,6 @@ img {
   border-radius: 5%; /* Optional: for rounded corners */
 }
 
-
 #map{
   width: 90%;
   height: 500px;
@@ -56,18 +55,6 @@ img {
   border-width: thick;
   border-style: dotted;
   margin: 0 auto;
-}
-
-
-.center_custom {
-  text-align: center;
-}
-
-.image_center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
 }
 
 h1, h2 {
